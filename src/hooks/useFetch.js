@@ -33,7 +33,7 @@ const  useFetch = (url) => {
             })
         
         return () => abrtcont.abort() 
-    },[url])
+    },[url,data])
 
     return {data,loading,error} ;
 }
