@@ -12,7 +12,6 @@ const Create = () => {
     const HandleSubmit=(e) =>{
         e.preventDefault();
         const blog={title,content,author}
-        console.log(JSON.stringify(blog))
         setloading(true)
         fetch("http://localhost:8000/Blogs",{
         method:'POST',
@@ -22,8 +21,7 @@ const Create = () => {
         })
         .then(()=>{
             setloading(false)
-            console.log("added")
-            history.push('/')
+            history.push('/ZahraBlog')
         })
         
         
