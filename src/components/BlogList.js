@@ -12,10 +12,7 @@ return(
             <Link className="link"  to={`/Blog/${blog.id}`}> 
                 <h2>{blog.title}</h2>
             </Link>
-            
             <p>written by {blog.author}</p>
-             
-            
         </div>
         
     )})}
