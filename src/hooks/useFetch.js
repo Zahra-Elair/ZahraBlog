@@ -12,7 +12,7 @@ const  useFetch = (url) => {
             fetch(url,{signal: abrtcont.signal})
             .then(res=>{
                 if(!res.ok) {
-                    if(res.status == 404){
+                    if(res.status === 404){
                         history.push('/xcwxcdsds')
                     }
                     throw Error("could not fetch the data")
