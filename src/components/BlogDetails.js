@@ -13,8 +13,6 @@ const BlogDetails = () => {
         })
         .then(
             history.push('/')
-
-            
         )
     }
 
