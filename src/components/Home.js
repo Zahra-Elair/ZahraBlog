@@ -12,7 +12,9 @@ function Home() {
         <div className="blogList">
             <div >
             {error && <h2>{error}</h2>}
-            {loading && <h2>Loading...</h2>}
+            {loading && (
+                <div class="ui active centered inline inverted loader"></div>
+            )}
             {Blogs && <BlogList Blogs={Blogs} title="All Blogs"  />}
             </div>
             

@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { useHistory } from "react-router";
 
+
+
+
 const Create = () => {
     
     const [title,setTitle]=useState("")
@@ -8,6 +11,9 @@ const Create = () => {
     const [content,setContent]=useState("")
     const [loading,setloading]=useState(false)
     const history=useHistory()
+    const fieldColor="#393e46"
+    const textColor="white"
+    const iconColor="#00adb5"
     
     const HandleSubmit=(e) =>{
         e.preventDefault();
@@ -23,35 +29,69 @@ const Create = () => {
             setloading(false)
             history.push('/ZahraBlog')
         })
-        
-        
+           
     }
+
+    
+
+    
 
     return (  
 
         <div className="create">
             <h1>Add a New Blog</h1>
             <form onSubmit={(e)=>HandleSubmit(e)}>
-                <label>Blog Name : </label>
-                <input 
-                    type="text" 
-                    value={title}  
-                    onChange={(e)=>{setTitle(e.target.value)}}
-                    required
-                />
-                <label>Author : </label>
-                <select required value={author} onChange={(e)=>{setAuthor(e.target.value)}}>
-                    <option value='Zahra'>Zahra</option>
-                    <option value='Hazem'>Hazem</option>
+
+                <div className="title" id="textField">
+                    <div className="fluid ui corner labeled input" >
+                        <input  type="text" 
+                            variant="filled"
+                            style={{background: fieldColor,color: textColor}}
+                            value={title}  
+                            onChange={(e)=>{setTitle(e.target.value)}}
+                            required
+                            placeholder="Title..."
+                            
+                        />
+                        <div className="ui corner label">
+                            <i className="asterisk icon"
+                            variant="filled"
+                            style={{color: iconColor}}
+                            ></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="ui form" id="contentField">
+                    <div className="field">
+                        <textarea  
+                        variant="filled"
+                        style={{background: fieldColor,color: textColor}}
+                        value={content}  
+                        onChange={(e)=>{setContent(e.target.value)}}
+                        required 
+                        placeholder="Content..."
+                        />
+                        <div className="ui corner label">
+                        <i className="asterisk icon"
+                        variant="filled"
+                        style={{color: iconColor}}
+                        ></i>
+                        </div>
+                    </div>
+                </div>
+
+                <select class="fluid ui dropdown" required id="authorField"
+                    value={author} 
+                    onChange={(e)=>{setAuthor(e.target.value)}}
+                    variant="filled"
+                    style={{background: fieldColor,color: textColor}}>
+                    <option value='Zahra' style={{color: textColor}}>Zahra</option>
+                    <option value='Hazem'style={{color: textColor}}>Hazem</option>
                 </select>
-                <label>Content : </label>
-                <textarea 
-                    value={content}  
-                    onChange={(e)=>{setContent(e.target.value)}}
-                    required
-                />
-                {!loading && <button>Add Blog</button>}
-                {loading && <button>Adding Blog...</button>}
+                <br/>
+                <center>{!loading && <button class="ui button" type="submit" id="addBlogButton" style={{background: '#00adb5',color: 'white'}}>Add Blog</button>}</center>
+                <center>{loading && <button class="ui button" type="submit" id="addBlogButton" style={{background: '#00adb5',color: 'white'}}>Adding...</button>}</center>
                 
             </form>
         </div>

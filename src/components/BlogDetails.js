@@ -16,19 +16,31 @@ const BlogDetails = () => {
         )
     }
 
+    const textColor="black"
 
     return ( 
         <div className="blogDetails">
             {error && <h2>{error}</h2>}
             {loading && <h2>Loading...</h2>}
             {blog && 
-            <article >
-                <h2>{blog.title}</h2>
-                <p>written by {blog.author}</p>
-                <div>{blog.content}</div>
-            </article>}
-            <button onClick={handleClick}>DELETE</button>
+            <div className="ui piled segments">
+                <div className="ui segment">
+                    <h4 className="ui header">{blog.title}</h4>
+                    <p style={{color:textColor}}>{blog.content}</p>  
+                </div>
+                <div className="ui clearing segment">
+                    <button className="ui negative right floated button"  onClick={handleClick}>Delete Blog</button>  
+                </div>
+                
+               
+            </div>  
+            }
         </div>
+
+
+
+
+
      );
 }
  

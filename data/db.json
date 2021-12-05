@@ -1,16 +1,34 @@
 {
   "Blogs": [
     {
-      "title": "Blog 1",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lorem dapibus, finibus erat a, pretium lorem. Praesent nec augue nisi. Sed nisl nisl, ornare ac felis a, vulputate malesuada nisl. Vestibulum rhoncus, nisl vitae efficitur pellentesque, turpis leo tempus dui, eget sagittis sapien mauris quis neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas quis orci sed metus maximus dignissim. Nunc convallis orci feugiat congue laoreet. Nulla consectetur nunc a velit rhoncus laoreet. Cras tincidunt, est eget molestie porttitor, ex justo elementum quam, at porttitor diam sem non lorem. Aenean sodales erat dignissim efficitur ornare. Etiam ante justo, efficitur nec tempor quis, auctor non enim. Ut rutrum massa mauris, quis hendrerit felis egestas sed. Nulla pharetra nisl urna, in sollicitudin tortor fermentum non. Donec ac consequat ipsum. Duis aliquam viverra dictum.Suspendisse potenti. Vestibulum in ultricies diam. Nunc vulputate suscipit condimentum. Donec faucibus massa vel pretium bibendum. In vestibulum accumsan pretium. Etiam congue id nisi sit amet vehicula. Morbi id lacus semper, consequat nisl eget, pellentesque tellus. Vestibulum eu scelerisque augue.",
-      "author": "zahra",
-      "id": 1
+      "title": "Hazem did an update",
+      "content": "Hello i made few changes, everywhere!",
+      "author": "Hazem",
+      "id": 5
     },
     {
-      "title": "Blog 4",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lorem dapibus, finibus erat a, pretium lorem. Praesent nec augue nisi. Sed nisl nisl, ornare ac felis a, vulputate malesuada nisl. Vestibulum rhoncus, nisl vitae efficitur pellentesque, turpis leo tempus dui, eget sagittis sapien mauris quis neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas quis orci sed metus maximus dignissim. Nunc convallis orci feugiat congue laoreet. Nulla consectetur nunc a velit rhoncus laoreet. Cras tincidunt, est eget molestie porttitor, ex justo elementum quam, at porttitor diam sem non lorem. Aenean sodales erat dignissim efficitur ornare. Etiam ante justo, efficitur nec tempor quis, auctor non enim. Ut rutrum massa mauris, quis hendrerit felis egestas sed. Nulla pharetra nisl urna, in sollicitudin tortor fermentum non. Donec ac consequat ipsum. Duis aliquam viverra dictum.Suspendisse potenti. Vestibulum in ultricies diam. Nunc vulputate suscipit condimentum. Donec faucibus massa vel pretium bibendum. In vestibulum accumsan pretium. Etiam congue id nisi sit amet vehicula. Morbi id lacus semper, consequat nisl eget, pellentesque tellus. Vestibulum eu scelerisque augue.",
-      "author": "zahra",
-      "id": 4
+      "title": "Impressed",
+      "content": "i like how it looks now ",
+      "author": "Zahra",
+      "id": 6
+    },
+    {
+      "title": "NEW",
+      "content": "finally a new blog here",
+      "author": "Zahra",
+      "id": 7
+    },
+    {
+      "title": "BLOGS",
+      "content": "should i write blogs about cats !!",
+      "author": "Zahra",
+      "id": 8
+    },
+    {
+      "title": "Funny Cat Names",
+      "content": "If you are looking for a cat name and like cat-themed puns, then this is the list for you. We’ve had great fun compiling this list of funny cat names. Choose one of the 50 funny male and female cat names designed to make you chuckle. This name will last so make sure it’s a good one!\n\nFunny Female Cat Names\nAtomic Kitten - Has a hot temper.\nCat Kidson - Has a fondness for earrings.\nCat Power - Lives in a sea of love.\nCatacomb - Needs a good comb.\nCatalie Portman - Likes the ballet.\n\nFunny Male Cat Names\nAshton Kitcher - Loves the later seasons of 2 and a Half Men.\nBill Clawton - Did not have intimate relations with that cat.\nBruce Flea - Is always scratching himself \nCat Cobian - Smells like teen spirit.\nCat Damon - Loves the Jason Bourne movies.",
+      "author": "Zahra",
+      "id": 9
     }
   ]
 }

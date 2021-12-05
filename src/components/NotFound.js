@@ -3,9 +3,16 @@ import { Link } from "react-router-dom";
 const  NotFound= () => {
     return (  
         <div>
-            <h1>Sorry,</h1>
-            <p>This page cannot be found :(</p>
-            <Link to='/'>Back to home page...</Link>
+            <div class="ui error message">
+                <div class="header">
+                    There were some errors with your submission
+                </div>
+                <ul class="list">
+                    <li>This page cannot be found :(</li>
+                </ul>
+                
+            <Link to='/ZahraBlog'>Back to home page...</Link>
+            </div>
         </div>
     );
 }

@@ -8,7 +8,7 @@ const  useFetch = (url) => {
     const history = useHistory()
     const abrtcont=new AbortController()
 
-    useEffect(()=>{        
+    useEffect(()=>{       
             fetch(url,{signal: abrtcont.signal})
             .then(res=>{
                 if(!res.ok) {
