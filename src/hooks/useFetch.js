@@ -20,7 +20,7 @@ const  useFetch = (url) => {
                 return res.json();
             })
             .then(data=>{
-                setData(data)
+                setData(data.Blogs)
                 setLoading(false)
                 setError(null)
             })
