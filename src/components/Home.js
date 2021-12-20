@@ -5,7 +5,7 @@ import useFetch from "../hooks/useFetch";
 
 function Home() {
     
-  const {data:Blogs,loading,error} = useFetch("http://localhost:8000/Blogs")
+  const {data:Blogs,loading,error} = useFetch("https://api.jsonbin.io/b/61c0ff5c78cc9429607cadcb")
     
 
     return (

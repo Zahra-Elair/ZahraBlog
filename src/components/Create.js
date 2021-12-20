@@ -19,7 +19,7 @@ const Create = () => {
         e.preventDefault();
         const blog={title,content,author}
         setloading(true)
-        fetch("http://localhost:8000/Blogs",{
+        fetch("https://api.jsonbin.io/b/61c0ff5c78cc9429607cadcb",{
         method:'POST',
         headers: {"Content-Type":"application/json"},
         body: JSON.stringify(blog)
