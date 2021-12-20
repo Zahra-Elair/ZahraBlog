@@ -4,11 +4,11 @@ import useFetch from "../hooks/useFetch";
 const BlogDetails = () => {
 
     const {id} = useParams()
-    const {data:blog,loading,error}=useFetch("https://api.jsonbin.io/b/61c0ff5c78cc9429607cadcb"+id)
+    const {data:blog,loading,error}=useFetch("https://api.jsonbin.io/b/61c0ff5c78cc9429607cadcb/"+id)
     const history=useHistory()
     
     const handleClick=()=>{
-        fetch('https://api.jsonbin.io/b/61c0ff5c78cc9429607cadcb'+id,{
+        fetch('https://api.jsonbin.io/b/61c0ff5c78cc9429607cadcb/'+id,{
             method:'DELETE'
         })
         .then(
