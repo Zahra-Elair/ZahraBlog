@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ZahraBlog/static/css/main.201dd816.chunk.css",
-    "main.js": "/ZahraBlog/static/js/main.d7e427d8.chunk.js",
-    "main.js.map": "/ZahraBlog/static/js/main.d7e427d8.chunk.js.map",
+    "main.css": "/ZahraBlog/static/css/main.2938538a.chunk.css",
+    "main.js": "/ZahraBlog/static/js/main.e45bc636.chunk.js",
+    "main.js.map": "/ZahraBlog/static/js/main.e45bc636.chunk.js.map",
     "runtime-main.js": "/ZahraBlog/static/js/runtime-main.fd9444eb.js",
     "runtime-main.js.map": "/ZahraBlog/static/js/runtime-main.fd9444eb.js.map",
     "static/js/2.aa370f69.chunk.js": "/ZahraBlog/static/js/2.aa370f69.chunk.js",
     "static/js/2.aa370f69.chunk.js.map": "/ZahraBlog/static/js/2.aa370f69.chunk.js.map",
     "index.html": "/ZahraBlog/index.html",
-    "static/css/main.201dd816.chunk.css.map": "/ZahraBlog/static/css/main.201dd816.chunk.css.map",
+    "static/css/main.2938538a.chunk.css.map": "/ZahraBlog/static/css/main.2938538a.chunk.css.map",
     "static/js/2.aa370f69.chunk.js.LICENSE.txt": "/ZahraBlog/static/js/2.aa370f69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fd9444eb.js",
     "static/js/2.aa370f69.chunk.js",
-    "static/css/main.201dd816.chunk.css",
-    "static/js/main.d7e427d8.chunk.js"
+    "static/css/main.2938538a.chunk.css",
+    "static/js/main.e45bc636.chunk.js"
   ]
 }
